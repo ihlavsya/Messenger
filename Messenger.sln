@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messenger.UI", "Messenger\Messenger.UI.csproj", "{888C1685-C27B-4D5A-9C46-613A44757E88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messenger.API", "Messenger.API\Messenger.API.csproj", "{B8CA6F14-9EFE-4438-B817-20F056311402}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messenger.Domain", "Messenger.Domain\Messenger.Domain.csproj", "{F297391A-24C3-4A7A-AC13-7BE67974CA82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Core", "Messenger.Core\Messenger.Core.csproj", "{1B611A1B-471F-4608-BA88-2AC1F54A65E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{888C1685-C27B-4D5A-9C46-613A44757E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888C1685-C27B-4D5A-9C46-613A44757E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888C1685-C27B-4D5A-9C46-613A44757E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888C1685-C27B-4D5A-9C46-613A44757E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CA6F14-9EFE-4438-B817-20F056311402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CA6F14-9EFE-4438-B817-20F056311402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CA6F14-9EFE-4438-B817-20F056311402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CA6F14-9EFE-4438-B817-20F056311402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F297391A-24C3-4A7A-AC13-7BE67974CA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F297391A-24C3-4A7A-AC13-7BE67974CA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F297391A-24C3-4A7A-AC13-7BE67974CA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F297391A-24C3-4A7A-AC13-7BE67974CA82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B611A1B-471F-4608-BA88-2AC1F54A65E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B611A1B-471F-4608-BA88-2AC1F54A65E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B611A1B-471F-4608-BA88-2AC1F54A65E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B611A1B-471F-4608-BA88-2AC1F54A65E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0831653A-6100-461A-9727-B7F057549FA2}
+	EndGlobalSection
+EndGlobal
